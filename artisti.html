@@ -1,1 +1,265 @@
-a
+<!doctype html>
+<html lang="it">
+  <head>
+    <meta charset="utf-g">
+    <meta name-"description" content="…"> <!-- da inserire max 100 caratteri -->
+    <meta name-"robots" content="index, follow">
+    <meta name="author" content="Micaela Sgambetterra e Arianna Vinci">
+    <meta HTTP-EQUIV="keywords" content="...">  <!-- da inserire, vedi https://www.html.it/articoli/come-scegliere-le-giuste-keyword/ -->
+    <link rel="icon" type="image/png" sizes="32x32" href="images/logotipo.png">  <!-- questa è l icona che compare nel tab -->
+    <link rel="stylesheet" type="text/css" href="css/style_artisti.css">
+    <link rel="stylesheet"  href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"> <!--da qui-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script> <!--a qui, è il link bootstrap-->
+    <script src="https://kit.fontawesome.com/07cc4d2b01.js" crossorigin="anonymous"></script> <!--libreria per le icone-->
+    <link rel="preconnect" href="https://fonts.googleapis.com"> <!--da qui-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Oleo+Script+Swash+Caps&display=swap" rel="stylesheet"> <!-- a qui, è il link font header-->
+    <title>TripMusic-Artisti</title>
+  </head>
+  <body> <!-- se inserisco qui "class="container-fluid" mi sballa tutto, quindi lo metterò a main-->
+    <header>
+      <section id="backgroundnav">
+        <h1 id="logo"><a href="index.html" title="torna alla homepage"><img id="immaginelogo" src="images/logosito.png" alt="logo del sito con banda musicale"/></a></h1>
+        <i id="homeicon" class="fa-solid fa-user"></i>
+        <i id="homeicon" class="fa-solid fa-magnifying-glass"></i>
+        <nav>
+          <ul>
+            <li class="navlista"> <a class="navlink" href="canzoni_tradizionali.html">CANZONI TRADIZIONALI</a></li>
+            <li id="navartisti" class="navlista"> <a class="navlink" href="artisti.html">ARTISTI</a></li>
+          </ul>
+        </nav>
+      </section>
+      <section> 
+        <!--<nav aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+            <li class="breadcrumb-item"><a href="artisti.html">Artisti</a></li>-->
+    <h1 id="titolo"><center>ARTISTI</center></h1>
+    <p id="spiegazione"><center>“Tutto, all'interno di un ambiente, esercita su di noi sensazioni e ci spinge a comportamenti. Le mura della nostra casa, gli spazi del nostro ufficio, i negozi e i locali che frequentiamo. Ad influenzarci sono i materiali dai quali siamo circondati, le forme con i quali sono costruiti e i colori dai quali sono caratterizzati”.  Come può tutto ciò non aver influenzato anche i nostri cantanti preferiti? In questa sezione scoprirete quali sono gli artisti che hanno arricchito il patrimonio della propria regione e che da sempre vengono associati ad essa.</center></p>
+<div class="row row-cols-1 row-cols-md-2 g-4">
+  <div class="col-sm-6 col-md-3">
+    <div class="card">
+        <img src="images/immvalledaosta.jpg" class="card-img-top" alt="foto paesaggio valle d'aosta">
+        <div class="card-body">
+            <h5 class="card-title"><a href="a_valle_d_aosta.html">VALLE D'AOSTA<br><br></a></h5>
+         </div>
+        </div>
+      </div>
+  <div class="col-sm-6 col-md-3">
+    <div class="card">
+      <img src="images/immpiemonte.jpg" class="card-img-top" alt="foto paesaggio piemonte">
+      <div class="card-body">
+        <h5 class="card-title"><a href="a_piemonte.html">PIEMONTE<br><br></a></h5>
+      </div>
+    </div>
+  </div>
+<div class="col-sm-6 col-md-3">
+    <div class="card">
+      <img src="images/immlombardia.jpg" class="card-img-top" alt="foto paesaggio lombardia">
+      <div class="card-body">
+        <h5 class="card-title"><a href="a_lombardia.html">LOMBARDIA<br><br></a></h5>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6 col-md-3">
+    <div class="card">
+      <img src="images/immtrentino.jpg" class="card-img-top" alt="foto paesaggio trentino alto adige">
+      <div class="card-body">
+        <h5 class="card-title"><a href="a_trentino_alto_adige.html">TRENTINO ALTO ADIGE<br><br></a></h5>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6 col-md-3">
+    <div class="card">
+      <img src="images/immveneto.jpg" class="card-img-top" alt="foto paesaggio veneto">
+      <div class="card-body">
+        <h5 class="card-title"><a href="a_veneto.html">VENETO<br><br></a></h5>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6 col-md-3">
+    <div class="card">
+      <img src="images/immfriuli.jpg" class="card-img-top" alt="foto paesaggio friuli venezia giulia">
+      <div class="card-body">
+        <h5 class="card-title"><a href="a_friuli_venezia_giulia.html">FRIULI VENEZIA GIULIA<br><br></a></h5>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6 col-md-3">
+    <div class="card">
+      <img src="images/immliguria.jpg" class="card-img-top" alt="foto paesaggio liguria">
+      <div class="card-body">
+        <h5 class="card-title"><a href="a_liguria.html">LIGURIA<br><br></a></h5>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6 col-md-3">
+    <div class="card">
+      <img src="images/immemiliaromagna.jpg" class="card-img-top" alt="foto portici bologna">
+      <div class="card-body">
+        <h5 class="card-title"><a href="a_emilia_romagna.html">EMILIA ROMAGNA<br><br></a></h5>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6 col-md-3">
+    <div class="card">
+      <img src="images/immtoscana.jpg" class="card-img-top" alt="immagine piazza firenze">
+      <div class="card-body">
+        <h5 class="card-title"><a href="a_toscana.html">TOSCANA<br><br></a></h5>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6 col-md-3">
+    <div class="card">
+      <img src="images/immmarche.jpg" class="card-img-top" alt="foto paesaggio marche">
+      <div class="card-body">
+        <h5 class="card-title"><a href="a_marche.html">MARCHE<br><br></a></h5>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6 col-md-3">
+    <div class="card">
+      <img src="images/immumbria.jpg" class="card-img-top" alt="foto paesaggio umbria">
+      <div class="card-body">
+        <h5 class="card-title"><a href="a_umbria.html">UMBRIA<br><br></a></h5>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6 col-md-3">
+    <div class="card">
+      <img src="images/immlazio.jpg" class="card-img-top" alt="foto colosseo roma">
+      <div class="card-body">
+        <h5 class="card-title"><a href="a_lazio.html">LAZIO<br><br></a></h5>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6 col-md-3">
+    <div class="card">
+      <img src="images/immabruzzo.jpg" class="card-img-top" alt="foto paesaggio abruzzo">
+      <div class="card-body">
+        <h5 class="card-title"><a href="a_abruzzo.html">ABRUZZO<br><br></a></h5>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6 col-md-3">
+    <div class="card">
+      <img src="images/immmolise.jpg" class="card-img-top" alt="foto paesaggio molise">
+      <div class="card-body">
+        <h5 class="card-title"><a href="a_molise.html">MOLISE<br><br></a></h5>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6 col-md-3">
+    <div class="card">
+      <img src="images/immcampania.jpg" class="card-img-top" alt="foto faraglioni campania">
+      <div class="card-body">
+        <h5 class="card-title"><a href="a_campania.html">CAMPANIA<br><br></a></h5>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6 col-md-3">
+    <div class="card">
+      <img src="images/immpuglia.jpg" class="card-img-top" alt="foto trulli puglia">
+      <div class="card-body">
+        <h5 class="card-title"><a href="a_puglia.html">PUGLIA<br><br></a></h5>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6 col-md-3">
+    <div class="card">
+      <img src="images/immbasilicata.jpg" class="card-img-top" alt="foto matera basilicata">
+      <div class="card-body">
+        <h5 class="card-title"><a href="a_basilicata.html">BASILICATA<br><br></a></h5>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6 col-md-3">
+    <div class="card">
+      <img src="images/immcalabria.jpg" class="card-img-top" alt="foto paesaggio calabria">
+      <div class="card-body">
+        <h5 class="card-title"><a href="a_calabria.html">CALABRIA<br><br></a></h5>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6 col-md-3">
+    <div class="card">
+      <img src="images/immsicilia.jpg" class="card-img-top" alt="foto paesaggio sicilia">
+      <div class="card-body">
+        <h5 class="card-title"><a href="a_sicilia.html">SICILIA<br><br></a></h5>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6 col-md-3">
+    <div class="card">
+      <img src="images/immsardegna.jpg" class="card-img-top" alt="immagine rappresentativa Sardegna">
+      <div class="card-body">
+        <h5 class="card-title"><a href="a_sardegna.html">SARDEGNA<br><br></a></h5>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+</main>
+<footer>
+      <section id="testofooter" class="row row-cols-sm-6 row-cols-md-3">
+        <section class="col-sm-6 col-md-3">
+          <p>
+            <a class="linkfooter" href="DA FARE">Chi siamo</a>
+          </p>
+        </section>
+        <section class="col-sm-6 col-md-3">
+          <p>
+            <a class="linkfooter" href="DA FARE">Dicono di noi</a>
+          </p>
+        </section>
+        <section class="col-sm-6 col-md-3">
+          <p>Privacy Policy</a><p>
+        </section>
+        <section class="col-sm-6 col-md-3">
+          <p>
+            <a class="linkfooter" href="DA FARE">Termini di servizio</a>
+          </p>
+        </section>
+      </section>
+      <section class="row row-cols-sm-6 row-cols-md-3"> <!-- visto che sono solo 3 le colonne andrebbe col-4 ma, per motivi di disegn, inseriamo col-4-->
+      <section class="col-sm-6 col-md-3"> 
+          <p class="lesspadding">Trovaci su:</p>
+          <a href="DA INSERIRE"><i id="iconesocial" class="fa-brands fa-facebook-square"></i></a>  <!--dovea essere class=iconesocial, ma dando una classe non mi ascoltava le istruzioni-->
+          <a href="DA INSERIRE"><i id="iconesocial" class="fa-brands fa-instagram-square"></i></a> 
+        </section>
+        <section class="col-sm-6 col-md-3"> 
+          <p class="lesspadding"> Condivi su:</p>
+          <div id="footericon" class="column"> <!-- visto su https://techblog.sdstudio.top/it/widget-semplici-icone-di-condivisione-social-per-weebly/--> <!-- da fare: inseire l'url corretto-->
+            <a href="https://www.facebook.com/sharer/sharer.php?u=www.TripMusic.it" id="iconesocial2" class="box">
+              <div class="fa fa-facebook"></div>
+            </a>
+            <a href="https://twitter.com/home?status=www.TripMusic.it" id="iconesocial2" class="box">
+              <div class="fa fa-twitter"></div>
+            </a>
+            <a href="https://plus.google.com/share?url=www.TripMusic.it" id="iconesocial2"class="box">
+              <div class="fa fa-google-plus"></div>
+            </a>
+          </div>
+        </section>
+        <section class="col-sm-6 col-md-3">
+          <h9>Contattaci:</h9>
+          <p>info@gmail.com</p>
+        </section>
+      </section>
+          
+    </footer>
+  </body>
+</html>
+
+  </body>
+
+
+
+</html>
+
+
+<!-- AGGIUNGER &nbsp per lasciare spazi tra parole --> 
+
+  
