@@ -103,7 +103,7 @@ main h1 {
     margin-right: 3%;
 }
 
-main h2 {padding-left: 5em !important;}
+main h2 {padding-left: 2em !important;}
 
 #artisti {   
 	margin-right: 3%;
@@ -113,8 +113,6 @@ main h2 {padding-left: 5em !important;}
 #artista {padding-bottom: 1.5%;}
 
 .nome {
-	padding-left: 30%  !important;
-	padding-right: 30%  !important;
 	font-size: 100% !important; /*perchè non mi considera come contenitore la box-card ?*/
 	color: black;
 } 
@@ -145,7 +143,6 @@ padding-top: 5%;
 .card-body {text-align: center;}
 
 .nome {
-
 	font-size: 100% !important; /*perchè non mi considera come contenitore la box-card ?*/
 	color: black;
 } 
