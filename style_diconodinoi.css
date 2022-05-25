@@ -93,8 +93,6 @@ body h1 {
     margin-inline-end: 0px !important;
 }
 
-
-
 .sopra {padding-bottom: 5%;
         padding-right: 5%;
         padding-left: 5%;}
@@ -123,7 +121,7 @@ footer {
 #iconesocial {
 	padding-left: 1vw;
 	color: black;
-	width: 1%; /*perchè width mi controlla la distanza tra icone, invece che la grandezza?*/
+	width: 1%; 
 }
 
 #iconesocial2 {
@@ -135,7 +133,7 @@ footer {
 
 .lesspadding {margin-bottom: 0px !important; }
 
-.contenuti {padding-left: 6%;}
+.contenuti {padding-left: 6% !important;}
 
 footer {background-color: white !important;}
 
