@@ -93,26 +93,15 @@ body h1 {
     margin-inline-end: 0px !important;
 }
 
-h2  {
-	margin-block-start: 2vh !important;
-    margin-block-end: 0px !important;
-    margin-inline-start: 0px !important;
-    margin-inline-end: 0px !important;
-}
-.testo {text-align: justify;}
-
-.contenuti {
-           padding: 2vw;
-}
-
-.blocco {padding: 0px 2vw;
-	     padding-bottom: 5%;
-}
 
 
-h2 {margin-top: 1%;
-padding-bottom: 1%;}
+.sopra {padding-bottom: 5%;
+        padding-right: 5%;
+        padding-left: 5%;}
 
+.sotto {padding-bottom: 5%;
+        padding-right: 5%;
+        padding-left: 5%;}       
 
 footer {
 	color: black;
@@ -146,9 +135,7 @@ footer {
 
 .lesspadding {margin-bottom: 0px !important; }
 
-.contenuti {
-    padding: 0px 2vw !important; 
-}
+.contenuti {padding-left: 6%;}
 
 footer {background-color: white !important;}
 
